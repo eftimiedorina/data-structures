@@ -15,6 +15,7 @@ public class BasicQueue<X> implements Queue<X>{
         this.front = -1;
         this.end = -1;
         data = (X[]) new Object[size];
+
     }
 
     public int size() {
